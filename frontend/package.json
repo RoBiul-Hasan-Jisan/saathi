@@ -1,0 +1,19 @@
+{
+  "name": "saathi-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Saathi web app (Next.js). Talks to the backend through the /api proxy.",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "firebase": "^11.0.0",
+    "next": "^15.1.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tesseract.js": "^5.1.1"
+  }
+}

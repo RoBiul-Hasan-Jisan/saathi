@@ -1,0 +1,17 @@
+{
+  "name": "saathi-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Saathi API: cards, DoctorGuard, incidents, library, voices (MongoDB + Firebase Auth)",
+  "type": "module",
+  "engines": { "node": ">=18.18" },
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.0.0",
+    "mongodb": "^6.10.0"
+  }
+}
